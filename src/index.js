@@ -1,4 +1,5 @@
 import "./style.css";
+import { createCrad } from "./page";
 import AmbienteImg from "./assets/ambiente.jpg";
 import KitchenImg from "./assets/kitchen.jpg";
 import storiaImg from "./assets/storia.png";
