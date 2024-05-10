@@ -18,6 +18,10 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
             test: /\.css$/,
             use: ['style-loader', 'css-loader'],
         },
+        {
+            test: /\.(png|svg|jpg|jpeg|gif)$/i,
+            type: 'asset/resource',
+          },
       ]
    }
  };
